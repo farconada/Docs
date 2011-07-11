@@ -1,0 +1,27 @@
+﻿﻿
+<f:layout name="Master"/>
+<f:section name="header">
+
+</f:section>
+
+<f:section name="mainbox">
+    <f:flashMessages class="flashmessages"/>
+    <![CDATA[
+    <script type="text/javascript">
+        Ext.onReady(function() {
+            Ext.QuickTips.init();
+
+        });
+    </script>
+    ]]>
+    <h2>Nuevo Documento</h2>
+    <f:form action="create" object="{newDoc}" name="newDoc" enctype="multipart/form-data">
+                <label for="title">Titulo</label><br />
+                <f:form.textbox property="titulo" id="titulo" /><br />
+
+                <label for="fichero">Fichero</label><br />
+                <f:form.upload property="fichero" /><br />
+
+                <f:form.submit value="Crear"/>
+        </f:form>
+</f:section>

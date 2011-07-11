@@ -1,0 +1,121 @@
+/* line 5, ../sass/docs.scss */
+body {
+  background-color: #e5e5e5;
+  background: url("../images/bck.jpg") repeat scroll 0 0 transparent;
+}
+
+/* line 11, ../sass/docs.scss */
+header h1 {
+  text-align: center;
+  font-family: 'Nova Script', serif;
+  text-shadow: white 2px 3px 1px;
+  padding: 5px;
+  padding-right: 100px;
+  float: right;
+}
+
+/* line 21, ../sass/docs.scss */
+#container {
+  padding: 5px;
+}
+
+/* line 25, ../sass/docs.scss */
+nav {
+  width: 100%;
+}
+/* line 27, ../sass/docs.scss */
+nav ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 30, ../sass/docs.scss */
+nav li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0px;
+  white-space: nowrap;
+  display: inline;
+  float: left;
+  padding-left: 4px;
+  padding-right: 4px;
+  width: 100px;
+  text-align: right;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(50%, #e5e5e5), color-stop(100%, #ffffff));
+  background-image: -webkit-linear-gradient(#ffffff, #e5e5e5, #ffffff);
+  background-image: -moz-linear-gradient(#ffffff, #e5e5e5, #ffffff);
+  background-image: -o-linear-gradient(#ffffff, #e5e5e5, #ffffff);
+  background-image: -ms-linear-gradient(#ffffff, #e5e5e5, #ffffff);
+  background-image: linear-gradient(#ffffff, #e5e5e5, #ffffff);
+  -moz-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  paddign: 5px;
+  margin-top: 40px;
+}
+/* line 48, ../../../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.11.3/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+nav li:first-child, nav li.first {
+  padding-left: 0;
+}
+/* line 49, ../../../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.11.3/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+nav li:last-child {
+  padding-right: 0;
+}
+/* line 50, ../../../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.11.3/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+nav li.last {
+  padding-right: 0;
+}
+/* line 39, ../sass/docs.scss */
+nav li a {
+  text-decoration: none;
+}
+/* line 42, ../sass/docs.scss */
+nav li a:hover {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(50%, #d9e5f3), color-stop(100%, #ffffff));
+  background-image: -webkit-linear-gradient(#ffffff, #d9e5f3, #ffffff);
+  background-image: -moz-linear-gradient(#ffffff, #d9e5f3, #ffffff);
+  background-image: -o-linear-gradient(#ffffff, #d9e5f3, #ffffff);
+  background-image: -ms-linear-gradient(#ffffff, #d9e5f3, #ffffff);
+  background-image: linear-gradient(#ffffff, #d9e5f3, #ffffff);
+}
+
+/* line 47, ../sass/docs.scss */
+section {
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -o-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  border-radius: 10px;
+  background-color: white;
+  -moz-box-shadow: 0 0 8px black;
+  -webkit-box-shadow: 0 0 8px black;
+  -o-box-shadow: 0 0 8px black;
+  box-shadow: 0 0 8px black;
+}
+/* line 51, ../sass/docs.scss */
+section #mainbox {
+  padding: 10px;
+}
+/* line 55, ../sass/docs.scss */
+section .listado-documentos th {
+  border-bottom-color: red;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  padding-top: 10px;
+}
+/* line 61, ../sass/docs.scss */
+section .listado-documentos td {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/* line 65, ../sass/docs.scss */
+section .listado-documentos tbody tr {
+  border-bottom-color: #e5e5e5;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+}

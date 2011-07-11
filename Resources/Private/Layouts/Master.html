@@ -1,0 +1,54 @@
+{namespace ext=F3\ExtJS\ViewHelpers}
+<!DOCTYPE html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <f:base/>
+    <link href="http://fonts.googleapis.com/css?family=Nova+Script:regular" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="{f:uri.resource(path: 'css/stylesheets/docs.css')}" type="text/css" media="all"/>
+    <!-- BEGIN ExtJs Framework-->
+    <link rel="stylesheet" type="text/css" href="{f:uri.resource(path: 'js/extjs/resources/css/ext-all.css')}"/>
+    <script type="text/javascript" src="{f:uri.resource(path: 'js/extjs/ext-all.js')}"></script>
+    <script type="text/javascript" src="{f:uri.resource(path: 'js/extjs/ext-lang-es.js')}"></script>
+    <script type="text/javascript" src="{f:uri.resource(path: 'js/Util.js')}"></script>
+    <!-- END ExtJs Framework-->
+
+    <title>Documentos</title>
+    <script type="text/javascript">
+        baseUrl = '/index.php/'
+    </script>
+    <f:render section="header"/>
+
+
+    <link href="http://fonts.googleapis.com/css?family=Nova+Script:regular" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="container">
+    <header>
+        <h1>Documentos</h1>
+        <nav>
+            <ul class="menu">
+                <li>
+                    <f:link.action action="index" controller="Documento">Listado</f:link.action>
+                </li>
+                <li>
+                    <f:link.action action="index" controller="Documento"  action="new">Nuevo</f:link.action>
+                </li>
+                <li>
+                    <f:link.action action="index" controller="Login">Login</f:link.action>
+                </li>
+                <li>
+                    <f:link.action action="logout" controller="Login">Logout</f:link.action>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <div id="mainbox">
+            <div id="my-app"></div>
+            <f:render section="mainbox"/>
+
+        </div>
+    </section>
+</div>
+</body>
+</html>

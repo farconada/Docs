@@ -1,0 +1,25 @@
+﻿﻿
+<f:layout name="Master"/>
+<f:section name="header">
+
+</f:section>
+
+<f:section name="mainbox">
+    <f:flashMessages class="flashmessages"/>
+    <![CDATA[
+    <script type="text/javascript">
+        Ext.onReady(function() {
+            Ext.QuickTips.init();
+
+        });
+    </script>
+    ]]>
+    <h2>{doc.titulo} <span class="fecha"><f:format.date format='Y-m-d h:m:s'>{doc.fecha}</f:format.date></span></h2>
+    <ol>
+        <f:for each="{doc.comentarios}" as="comentario">
+            <li class="comentario">
+                <p><span id="fecha"><f:format.date format='Y-m-d h:m:s'>{comentario.fecha}</f:format.date></span>{comentario.texto}</p>
+            </li>
+        </f:for>
+    </ol>
+</f:section>
