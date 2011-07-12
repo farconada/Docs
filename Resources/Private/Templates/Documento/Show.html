@@ -1,0 +1,35 @@
+﻿﻿
+<f:layout name="Master"/>
+<f:section name="header">
+
+</f:section>
+
+<f:section name="mainbox">
+    <f:flashMessages class="flashmessages"/>
+
+    <ul class="actions">
+        <li><a href="{f:uri.resource(resource: doc.fichero)}"><img
+                src="{f:uri.resource(path: 'icons/disk.png', package: 'Docs')}" alt="Guardar"/></a>
+        </li>
+        <li>
+            <f:link.action action="edit" arguments="{doc: doc}" controller="Documento"><img
+                    src="{f:uri.resource(path: 'icons/pencil.png', package: 'Docs')}" alt="Editar"/>
+            </f:link.action>
+        </li>
+        <li>
+            <f:link.action arguments="{doc: doc}" controller="Comentario" action="new"><img
+                    src="{f:uri.resource(path: 'icons/comment.png', package: 'Docs')}" alt="Comentar"/>
+            </f:link.action>
+        </li>
+    </ul>
+    <h2>{doc.titulo} <span class="fecha"><f:format.date format='Y-m-d H:i:s'>{doc.fecha}</f:format.date></span></h2>
+    <ol reversed="reversed">
+        <f:for each="{doc.comentarios}" as="comentario" reverse="TRUE">
+            <li class="comentario">
+                <p><span id="fecha"><f:format.date format='Y-m-d H:i:s'>{comentario.fecha}</f:format.date></span>
+                    {comentario.texto}
+                </p>
+            </li>
+        </f:for>
+    </ol>
+</f:section>

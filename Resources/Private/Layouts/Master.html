@@ -1,0 +1,50 @@
+{namespace ext=F3\ExtJS\ViewHelpers}
+<!DOCTYPE html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <f:base/>
+    <link href="http://fonts.googleapis.com/css?family=Nova+Script:regular" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="{f:uri.resource(path: 'css/stylesheets/docs.css')}" type="text/css" media="all"/>
+    <script type="text/javascript" src="{f:uri.resource(path: 'js/jquery-1.6.2.min.js')}"></script>
+
+    <title>Documentos</title>
+    <script type="text/javascript">
+        baseUrl = '/index.php/'
+    </script>
+    <f:render section="header"/>
+
+
+    <link href="http://fonts.googleapis.com/css?family=Nova+Script:regular" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="container">
+    <header>
+        <h1>Documentos</h1>
+        <nav>
+            <ul class="menu">
+                <li>
+                    <f:link.action action="index" controller="Documento">Listado</f:link.action>
+                </li>
+                <f:security.ifHasRole role="Editor">
+                    <li>
+                        <f:link.action action="index" controller="Documento"  action="new">Nuevo</f:link.action>
+                    </li>
+                </f:security.ifHasRole>
+
+                <li>
+                    <f:link.action action="index" controller="Login">Login</f:link.action>
+                </li>
+                <li>
+                    <f:link.action action="logout" controller="Login">Logout</f:link.action>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <div id="mainbox">
+            <f:render section="mainbox"/>
+        </div>
+    </section>
+</div>
+</body>
+</html>

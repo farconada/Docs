@@ -1,0 +1,35 @@
+-
+  name: 'Default'
+  uriPattern:    ''
+  defaults:
+    '@package':    Docs
+    '@controller': Documento
+    '@action':     index
+    '@format':     html
+##########################################################
+###  Empresa
+##########################################################
+#-
+#  name: 'empresa default'
+#  uriPattern:    'empresa(/)'
+#  defaults:
+#    '@package':    Sifpe
+#    '@controller': Empresa
+#    '@action':     index
+#    '@format':     html
+#-
+#  name: 'empresa index'
+#  uriPattern:    'empresa/index'
+#  defaults:
+#    '@package':    Sifpe
+#    '@controller': Empresa
+#    '@action':     index
+#    '@format':     html
+#-
+#  name: 'empresa actions'
+#  uriPattern:    'empresa/{@action}(/index.{@format})'
+#  defaults:
+#    '@package':    Sifpe
+#    '@controller': Empresa
+#    '@action':     list
+#    '@format':     json

@@ -1,0 +1,17 @@
+﻿﻿
+<f:layout name="Master"/>
+<f:section name="header">
+
+</f:section>
+
+<f:section name="mainbox">
+    <f:flashMessages class="flashmessages"/>
+    <h2>Nuevo Comentario para el fichero "{doc.titulo}"</h2>
+
+    <f:form action="create" object="{comentario}" name="comentario" arguments="{doc: doc}" enctype="multipart/form-data">
+                <label for="title">Texto</label><br />
+                <f:form.textarea property="texto" rows="5" cols="40" id="texto" /><br />
+
+                <f:form.submit value="Crear"/>
+        </f:form>
+</f:section>

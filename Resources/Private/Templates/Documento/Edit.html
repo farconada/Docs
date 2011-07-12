@@ -1,0 +1,19 @@
+﻿﻿
+<f:layout name="Master"/>
+<f:section name="header">
+
+</f:section>
+
+<f:section name="mainbox">
+    <f:flashMessages class="flashmessages"/>
+    <h2>Editar Documento</h2>
+    <f:form action="update" object="{doc}" name="doc" enctype="multipart/form-data">
+                <label for="title">Titulo</label><br />
+                <f:form.textbox property="titulo" id="titulo" /><br />
+
+                <label for="fichero">Fichero</label><br />
+                <f:form.upload property="fichero" /><br />
+
+                <f:form.submit value="Guardar"/>
+        </f:form>
+</f:section>
