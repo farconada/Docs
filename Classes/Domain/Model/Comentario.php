@@ -25,8 +25,8 @@ class Comentario {
      * texto
      *
      * @var string
-     * @validate Text, StringLength(minimum = 1, maximum = 120)
-     * @Column(length="250")
+     * @validate Text, NotEmpty
+	 * @Column(type="text")
      */
     protected $texto = '';
 
@@ -40,7 +40,7 @@ class Comentario {
      * fecha
      * @var \DateTime
      * @dontvalidate
-     * @Column(type="date")
+     * @Column(type="datetime")
      */
     protected $fecha;
  

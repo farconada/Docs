@@ -5,12 +5,7 @@
     <f:base/>
     <link href="http://fonts.googleapis.com/css?family=Nova+Script:regular" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="{f:uri.resource(path: 'css/stylesheets/docs.css')}" type="text/css" media="all"/>
-    <!-- BEGIN ExtJs Framework-->
-    <link rel="stylesheet" type="text/css" href="{f:uri.resource(path: 'js/extjs/resources/css/ext-all.css')}"/>
-    <script type="text/javascript" src="{f:uri.resource(path: 'js/extjs/ext-all.js')}"></script>
-    <script type="text/javascript" src="{f:uri.resource(path: 'js/extjs/ext-lang-es.js')}"></script>
-    <script type="text/javascript" src="{f:uri.resource(path: 'js/Util.js')}"></script>
-    <!-- END ExtJs Framework-->
+    <script type="text/javascript" src="{f:uri.resource(path: 'js/jquery-1.6.2.min.js')}"></script>
 
     <title>Documentos</title>
     <script type="text/javascript">
@@ -30,9 +25,12 @@
                 <li>
                     <f:link.action action="index" controller="Documento">Listado</f:link.action>
                 </li>
-                <li>
-                    <f:link.action action="index" controller="Documento"  action="new">Nuevo</f:link.action>
-                </li>
+                <f:security.ifHasRole role="Editor">
+                    <li>
+                        <f:link.action action="index" controller="Documento"  action="new">Nuevo</f:link.action>
+                    </li>
+                </f:security.ifHasRole>
+
                 <li>
                     <f:link.action action="index" controller="Login">Login</f:link.action>
                 </li>
@@ -44,9 +42,7 @@
     </header>
     <section>
         <div id="mainbox">
-            <div id="my-app"></div>
             <f:render section="mainbox"/>
-
         </div>
     </section>
 </div>

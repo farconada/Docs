@@ -7,16 +7,16 @@
 <f:section name="mainbox">
     <f:flashMessages class="flashmessages"/>
     <div id="loginscreen">
-        <h2>Autentit¡ficacion requerida</h2>
+        <h2>Autentificacion de usuario</h2>
 
         <p>
             <f:flashMessages class="flashmessages"/>
         </p>
         <f:form action="authenticate" method="post">
             <fieldset>
-                <legend></legend>
+                <legend>Datos de usuario</legend>
                 <div class="row username">
-                    <label id="usernameLabel" for="username" class="placeholder"><span>Username</span></label>
+                    <label id="usernameLabel" for="username" class="placeholder"><span>Usuario</span></label>
                     <f:form.textbox name="F3[FLOW3][Security][Authentication][Token][UsernamePassword][username]"
                                     tabindex="1"/>
                 </div>

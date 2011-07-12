@@ -25,71 +25,7 @@
     <favorites_list name="Docs" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="docs.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Resources/Public/css/sass/docs.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="25" selection-start="1383" selection-end="1383" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Resources/Private/Templates/Documento/Index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="38" selection-start="366" selection-end="366" vertical-scroll-proportion="-10.625">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Resources/Private/Templates/Login/Index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="38" selection-start="708" selection-end="708" vertical-scroll-proportion="-12.5">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Master.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Resources/Private/Layouts/Master.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="49" selection-start="1712" selection-end="1712" vertical-scroll-proportion="-14.958333">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Settings.yaml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Configuration/Settings.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="30" selection-start="256" selection-end="256" vertical-scroll-proportion="0.23725834">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Classes/Controller/LoginController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="43" selection-start="1191" selection-end="1191" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ComentarioController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Classes/Controller/ComentarioController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="176" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -103,22 +39,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Resources/Private/Templates/Documento/New.html" />
+        <option value="$PROJECT_DIR$/Classes/Controller/AdminController.php" />
+        <option value="$PROJECT_DIR$/Resources/Private/Templates/Admin/Index.html" />
+        <option value="$PROJECT_DIR$/Configuration/Settings.yaml" />
+        <option value="$PROJECT_DIR$/Classes/Command/UserCommandController.php" />
+        <option value="$PROJECT_DIR$/Configuration/Policy.yaml" />
+        <option value="$PROJECT_DIR$/Classes/Controller/LoginController.php" />
         <option value="$PROJECT_DIR$/Resources/Private/Templates/Documento/Edit.html" />
+        <option value="$PROJECT_DIR$/Resources/Private/Templates/Documento/New.html" />
+        <option value="$PROJECT_DIR$/Resources/Private/Templates/Login/Index.html" />
         <option value="$PROJECT_DIR$/Resources/Private/Templates/Comentario/New.html" />
         <option value="$PROJECT_DIR$/Classes/Domain/Model/Documento.php" />
         <option value="$PROJECT_DIR$/Classes/Domain/Model/Comentario.php" />
-        <option value="$PROJECT_DIR$/Classes/Controller/ComentarioController.php" />
-        <option value="$PROJECT_DIR$/Classes/Controller/DocumentoController.php" />
-        <option value="$PROJECT_DIR$/Resources/Private/Templates/Documento/Show.html" />
+        <option value="$PROJECT_DIR$/Resources/Private/Layouts/Master.html" />
         <option value="$PROJECT_DIR$/Resources/Private/Templates/Documento/Index.html" />
         <option value="$PROJECT_DIR$/Resources/Public/css/sass/docs.scss" />
-        <option value="$PROJECT_DIR$/Classes/Controller/AdminController.php" />
-        <option value="$PROJECT_DIR$/Resources/Private/Templates/Admin/Index.html" />
-        <option value="$PROJECT_DIR$/Resources/Private/Layouts/Master.html" />
-        <option value="$PROJECT_DIR$/Resources/Private/Templates/Login/Index.html" />
-        <option value="$PROJECT_DIR$/Configuration/Settings.yaml" />
-        <option value="$PROJECT_DIR$/Classes/Controller/LoginController.php" />
+        <option value="$PROJECT_DIR$/Resources/Private/Templates/Documento/Show.html" />
       </list>
     </option>
   </component>
@@ -149,7 +85,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Favorites" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -164,21 +99,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="FLOW3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
               <option name="myItemId" value="Docs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FLOW3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Configuration" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -189,6 +110,18 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Docs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -229,6 +162,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Docs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Docs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -448,8 +407,27 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Docs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Docs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Classes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Command" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Favorites" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -457,12 +435,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="web-ide.project.structure" />
     <property name="DefaultHtmlFileTemplate" value="Html" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
-  <component name="PublishConfig" serverName="flow3" serverId="6a3a24ea-3629-4bf2-8c9b-8579e82e9cad">
+  <component name="PublishConfig" serverName="flow3" serverId="62f37db3-5096-458f-a75f-d861affd1172">
     <servers>
-      <server id="05fc98cc-c699-4c35-bf70-a73acc226c98">
+      <server id="2267b04c-495c-48a7-9dae-4b573639fcf5">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" />
@@ -470,23 +448,7 @@
           </mappings>
         </serverdata>
       </server>
-      <server id="163ee1ce-d03a-40b2-bbe8-e27074055e8d">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" />
-            <mapping local="$PROJECT_DIR$/../FLOW3" />
-          </mappings>
-        </serverdata>
-      </server>
-      <server id="2a5eaf13-515a-4132-a842-77c1ea2dacee">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" />
-            <mapping local="$PROJECT_DIR$/../FLOW3" />
-          </mappings>
-        </serverdata>
-      </server>
-      <server id="6a3a24ea-3629-4bf2-8c9b-8579e82e9cad">
+      <server id="62f37db3-5096-458f-a75f-d861affd1172">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />
@@ -497,6 +459,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Configuration" />
       <recent name="$PROJECT_DIR$/Resources/Private/Templates/Comentario" />
       <recent name="$PROJECT_DIR$/Resources/Private/Templates/Documento" />
     </key>
@@ -560,16 +523,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="31" width="1368" height="741" extended-state="6" />
-    <editor active="true" />
+    <frame x="1280" y="26" width="1280" height="998" extended-state="1" />
+    <editor active="false" />
     <layout>
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Phing Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25360668" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25874695" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -625,112 +588,114 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Configuration/Routes.yaml">
+    <entry file="file://$PROJECT_DIR$/Classes/Command/UserCommandController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="23" selection-start="153" selection-end="153" vertical-scroll-proportion="0.11931818" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/Private/Templates/Documento/Edit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="45" selection-start="700" selection-end="700" vertical-scroll-proportion="0.0">
+        <state line="35" column="42" selection-start="974" selection-end="974" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/Private/Templates/Comentario/New.html">
+    <entry file="file://$PROJECT_DIR$/Configuration/Objects.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="88" selection-start="443" selection-end="443" vertical-scroll-proportion="0.49541286">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/Private/Templates/Documento/New.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="52" selection-start="652" selection-end="652" vertical-scroll-proportion="0.6055046">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Classes/Domain/Repository/DocumentoRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="10" selection-start="45" selection-end="70" vertical-scroll-proportion="0.05272408">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Classes/Domain/Model/Documento.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="118" column="5" selection-start="1937" selection-end="2014" vertical-scroll-proportion="0.4463972">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Classes/Domain/Model/Comentario.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="111" column="5" selection-start="1772" selection-end="1772" vertical-scroll-proportion="0.8945519">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Classes/Controller/DocumentoController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="19" selection-start="1578" selection-end="1578" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/Private/Templates/Documento/Show.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="70" selection-start="582" selection-end="582" vertical-scroll-proportion="0.56390977">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/Public/css/sass/docs.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="25" selection-start="1383" selection-end="1383" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Classes/Controller/ComentarioController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="176" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/Private/Layouts/Master.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="49" selection-start="1712" selection-end="1712" vertical-scroll-proportion="-14.958333">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Classes/Controller/LoginController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="43" selection-start="1191" selection-end="1191" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/Private/Templates/Documento/Index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="38" selection-start="366" selection-end="366" vertical-scroll-proportion="-10.625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/Private/Templates/Login/Index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="38" selection-start="708" selection-end="708" vertical-scroll-proportion="-12.5">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Configuration/Settings.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="30" selection-start="256" selection-end="256" vertical-scroll-proportion="0.23725834">
+        <state line="9" column="30" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Configuration/Policy.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="7" selection-start="330" selection-end="330" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classes/Controller/LoginController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="71" selection-start="1152" selection-end="1152" vertical-scroll-proportion="0.77968174">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Private/Templates/Documento/Edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="44" selection-start="140" selection-end="140" vertical-scroll-proportion="-4.375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Private/Templates/Login/Index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="12" selection-start="1215" selection-end="1215" vertical-scroll-proportion="0.6052963">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Private/Templates/Comentario/New.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="69" selection-start="449" selection-end="449" vertical-scroll-proportion="0.23076923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Private/Templates/Documento/New.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="44" selection-start="140" selection-end="140" vertical-scroll-proportion="0.13240857">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classes/Domain/Repository/DocumentoRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classes/Domain/Model/Comentario.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="29" selection-start="629" selection-end="629" vertical-scroll-proportion="0.23378213">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Private/Layouts/Master.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="41" selection-start="1648" selection-end="1648" vertical-scroll-proportion="0.79192936">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classes/Domain/Model/Documento.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="13" selection-start="729" selection-end="773" vertical-scroll-proportion="0.05507956">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Private/Templates/Documento/Show.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="12" selection-start="67" selection-end="67" vertical-scroll-proportion="0.07566204">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Public/css/sass/docs.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="87" column="42" selection-start="2099" selection-end="2099" vertical-scroll-proportion="0.871481">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Private/Templates/Documento/Index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="24" selection-start="1717" selection-end="2809" vertical-scroll-proportion="0.5871795">
           <folding />
         </state>
       </provider>

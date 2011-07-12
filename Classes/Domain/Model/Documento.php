@@ -41,7 +41,7 @@ class Documento {
      * fecha
      * @var \DateTime
      * @dontvalidate
-     * @Column(type="date")
+     * @Column(type="datetime")
      */
     protected $fecha;
 
@@ -148,5 +148,8 @@ class Documento {
             return $this->comentarios;
     }
 
+    public function getUltimoComentario() {
+            return $this->comentarios[count($this->comentarios )-1];
+    }
 
 }
