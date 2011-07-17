@@ -50,7 +50,7 @@ class LoginController extends \TYPO3\FLOW3\MVC\Controller\ActionController
     {
         $this->authenticationManager->logout();
         $this->flashMessageContainer->add('Acaba de salir correctamente.');
-        $this->redirect('index', 'Documento');
+        $this->redirect('index', 'Login');
     }
 
 

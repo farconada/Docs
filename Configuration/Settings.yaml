@@ -1,12 +1,16 @@
 TYPO3:
+
+   # redirect to login page when trying to access a protected page:
   FLOW3:
     security:
+      enable: yes
       authentication:
-        authenticationStrategy: oneToken
         providers:
           DefaultProvider:
             providerClass: PersistedUsernamePasswordProvider
             entryPoint:
               WebRedirect:
-                uri: 'docs/login/index'
-                
+                uri: docs/login/index
+      firewall:
+        rejectAll: n
+        
