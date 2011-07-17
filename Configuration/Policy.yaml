@@ -2,6 +2,7 @@ resources:
   methods:
     Fernando_Docs_DocumentoEditorMethods: 'method(Fernando\Docs\Controller\DocumentoController->(new|create|edit|update)Action())'
     Fernando_Docs_EditorRestrictedControllers: 'class(Fernando\Docs\Controller\(Comentario)Controller)'
+    Fernando_Docs_DocumentoReaderMethods: 'method(Fernando\Docs\Controller\DocumentoController->(index)Action())'
 roles:
   Reader: []
   Editor: [Reader]
@@ -10,3 +11,6 @@ acls:
     methods:
       Fernando_Docs_DocumentoEditorMethods: GRANT
       Fernando_Docs_EditorRestrictedControllers: GRANT
+  Reader:
+    methods:
+      Fernando_Docs_DocumentoReaderMethods: GRANT

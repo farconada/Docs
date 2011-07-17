@@ -3,7 +3,7 @@
   uriPattern:    ''
   defaults:
     '@package':    'Fernando.Docs'
-    '@controller': 'Documento'
+    '@controller': 'Login'
     '@action':     'index'
     '@format':     'html'
 
@@ -15,4 +15,7 @@
     '@controller': 'Documento'
     '@action':     'index'
     '@format':     'html'
+
+
+
     
