@@ -1,6 +1,6 @@
 <?php
 declare(ENCODING = 'utf-8');
-namespace F3\Docs;
+namespace Fernando\Docs;
 
 /*                                                                        *
  * This script belongs to the FLOW3 package "Blog".                       *
@@ -22,7 +22,7 @@ namespace F3\Docs;
  * The TYPO3 project - inspiring people to share!                         *
  *                                                                        */
 
-use \F3\FLOW3\Package\Package as BasePackage;
+use \TYPO3\FLOW3\Package\Package as BasePackage;
 
 /**
  * The Sifpe Package
@@ -37,10 +37,10 @@ class Package extends BasePackage {
      *
      * signal/Slot para ejecutar un backup de la BD (slotRecordPreDeleted) cada vez que se emite la señal recordPreDeleted
 	 *
-	 * @param \F3\FLOW3\Core\Bootstrap $bootstrap The current bootstrap
+	 * @param \TYPO3\FLOW3\Core\Bootstrap $bootstrap The current bootstrap
 	 * @return void
 	 */
-	public function boot(\F3\FLOW3\Core\Bootstrap $bootstrap) {
+	public function boot(\TYPO3\FLOW3\Core\Bootstrap $bootstrap) {
     }
 
 }

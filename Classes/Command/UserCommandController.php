@@ -1,5 +1,5 @@
 <?php
-namespace F3\Docs\Command;
+namespace Fernando\Docs\Command;
 /**
  * The setup controller for the Blog package, for setting up some
  * data to play with.
@@ -7,32 +7,34 @@ namespace F3\Docs\Command;
  * @license http://www.gnu.org/licenses/gpl.html GNU General Public License, version 3 or later
  * @scope singleton
  */
-class UserCommandController extends \F3\FLOW3\MVC\Controller\CommandController
+class UserCommandController extends \TYPO3\FLOW3\MVC\Controller\CommandController
 {
 
     /**
      * @inject
-     * @var \F3\FLOW3\Security\AccountRepository
+     * @var \TYPO3\FLOW3\Security\AccountRepository
      */
     protected $accountRepository;
 
     /**
      * @inject
-     * @var \F3\FLOW3\Security\AccountFactory
+     * @var \TYPO3\FLOW3\Security\AccountFactory
      */
     protected $accountFactory;
 
 
     /**
+     * Añade un usuario
+     *
      * @param string $username
      * @param string $password
      * @param string $role
-     * @return void
+     * @return string
      */
-    public function addUserCommand($username='admin', $password='admin', $role='Editor')
+    public function adduserCommand($username, $password, $role='Editor')
     {
         $account = $this->accountFactory->createAccountWithPassword($username, $password, array($role));
         $this->accountRepository->update($account);
-        return 'La cuenta ha sido creada';
+        return 'La cuenta ha sido creada'. PHP_EOL;
     }
 }

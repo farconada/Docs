@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<package xmlns="http://typo3.org/ns/2008/flow3/package">
+    <key>Docs</key>
+    <title>Gestion sencilla de documentos</title>
+    <description></description>
+    <version>0.9.91</version>
+    <categories/>
+    <parties>
+        <person role="LeadDeveloper">
+            <name>Fernando Arconada</name>
+            <email>fernando.arconada@gmail.com</email>
+            <website></website>
+            <organisation></organisation>
+            <repositoryUserName>farconada</repositoryUserName>
+        </person>
+    </parties>
+    <constraints>
+        <depends/>
+        <conflicts/>
+        <suggests/>
+    </constraints>
+</package>

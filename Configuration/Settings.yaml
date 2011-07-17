@@ -1,10 +1,12 @@
-FLOW3:
-  security:
-    authentication:
-      authenticationStrategy: oneToken
-      providers:
-        DefaultProvider:
-          providerClass: PersistedUsernamePasswordProvider
-          entryPoint:
-            WebRedirect:
-              uri: login/index
+TYPO3:
+  FLOW3:
+    security:
+      authentication:
+        authenticationStrategy: oneToken
+        providers:
+          DefaultProvider:
+            providerClass: PersistedUsernamePasswordProvider
+            entryPoint:
+              WebRedirect:
+                uri: 'docs/login/index'
+                

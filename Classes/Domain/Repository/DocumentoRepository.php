@@ -1,6 +1,6 @@
 <?php
 declare(ENCODING = 'utf-8');
-namespace F3\Docs\Domain\Repository;
+namespace Fernando\Docs\Domain\Repository;
  
 /**
  * DocumentoRepository
@@ -9,6 +9,6 @@ namespace F3\Docs\Domain\Repository;
  *
  */
   
-class DocumentoRepository extends \F3\FLOW3\Persistence\Repository {
+class DocumentoRepository extends \TYPO3\FLOW3\Persistence\Repository {
  
 }

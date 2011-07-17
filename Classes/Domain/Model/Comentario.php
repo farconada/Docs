@@ -1,6 +1,6 @@
 <?php
 declare(ENCODING = 'utf-8');
-namespace F3\Docs\Domain\Model;
+namespace Fernando\Docs\Domain\Model;
 /**
  * Comentario
  *
@@ -31,7 +31,7 @@ class Comentario {
     protected $texto = '';
 
     /**
-     * @var \F3\Docs\Domain\Model\Documento
+     * @var \Fernando\Docs\Domain\Model\Documento
      * @ManyToOne(inversedBy="comentarios")
      */
     protected $documento;
@@ -76,7 +76,7 @@ class Comentario {
     }
 
     /**
-     * @param \F3\Docs\Domain\Model\Documento $documento
+     * @param \Fernando\Docs\Domain\Model\Documento $documento
      */
     public function setDocumento($documento)
     {
@@ -84,7 +84,7 @@ class Comentario {
     }
 
     /**
-     * @return \F3\Docs\Domain\Model\Documento
+     * @return \Fernando\Docs\Domain\Model\Documento
      */
     public function getDocumento()
     {

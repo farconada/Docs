@@ -1,4 +1,4 @@
-{namespace ext=F3\ExtJS\ViewHelpers}
+{namespace ext=TYPO3\ExtJS\ViewHelpers}
 <!DOCTYPE html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
@@ -22,12 +22,12 @@
         <h1>Documentos</h1>
         <nav>
             <ul class="menu">
-                <li>
-                    <f:link.action action="index" controller="Documento">Listado</f:link.action>
-                </li>
                 <f:security.ifHasRole role="Editor">
                     <li>
-                        <f:link.action action="index" controller="Documento"  action="new">Nuevo</f:link.action>
+                        <f:link.action action="index" controller="Documento" action="new">Nuevo</f:link.action>
+                    </li>
+                    <li>
+                        <f:link.action action="index" controller="Documento">Listado</f:link.action>
                     </li>
                 </f:security.ifHasRole>
 

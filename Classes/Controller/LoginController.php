@@ -1,17 +1,17 @@
 <?php
 declare(ENCODING = 'utf-8') ;
-namespace F3\Docs\Controller;
+namespace Fernando\Docs\Controller;
 
 /*
 * ComentarioController
 *
 *
 */
-class LoginController extends \F3\FLOW3\MVC\Controller\ActionController
+class LoginController extends \TYPO3\FLOW3\MVC\Controller\ActionController
 {
     /**
      * @inject
-     * @var \F3\FLOW3\Security\Authentication\AuthenticationManagerInterface
+     * @var \TYPO3\FLOW3\Security\Authentication\AuthenticationManagerInterface
      */
     protected $authenticationManager;
 
@@ -36,7 +36,7 @@ class LoginController extends \F3\FLOW3\MVC\Controller\ActionController
         try {
             $this->authenticationManager->authenticate();
             $this->redirect('index', 'Documento');
-        } catch (\F3\FLOW3\Security\Exception\AuthenticationRequiredException $exception) {
+        } catch (\TYPO3\FLOW3\Security\Exception\AuthenticationRequiredException $exception) {
             $this->flashMessageContainer->add('Usuario o password incorrectos.');
             throw $exception;
         }

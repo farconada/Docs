@@ -48,16 +48,16 @@
                     </td>
                     <td>
                         <a href="{f:uri.resource(resource: doc.fichero)}"><img
-                                src="{f:uri.resource(path: 'icons/disk.png', package: 'Docs')}" alt="Guardar"/></a>
+                                src="{f:uri.resource(path: 'icons/disk.png', package: 'Fernando.Docs')}" alt="Guardar"/></a>
                         <f:security.ifHasRole role="Editor">
                             <f:link.action action="edit" arguments="{doc: doc}" controller="Documento"><img
-                                    src="{f:uri.resource(path: 'icons/pencil.png', package: 'Docs')}" alt="Editar"/>
+                                    src="{f:uri.resource(path: 'icons/pencil.png', package: 'Fernando.Docs')}" alt="Editar"/>
                             </f:link.action>
                             <f:link.action action="show" arguments="{doc: doc}" controller="Documento"><img
-                                    src="{f:uri.resource(path: 'icons/zoom.png', package: 'Docs')}" alt="Detalles"/>
+                                    src="{f:uri.resource(path: 'icons/zoom.png', package: 'Fernando.Docs')}" alt="Detalles"/>
                             </f:link.action>
                             <f:link.action arguments="{doc: doc}" controller="Comentario" action="new"><img
-                                    src="{f:uri.resource(path: 'icons/comment.png', package: 'Docs')}" alt="Comentar"/>
+                                    src="{f:uri.resource(path: 'icons/comment.png', package: 'Fernando.Docs')}" alt="Comentar"/>
                             </f:link.action>
                         </f:security.ifHasRole>
 

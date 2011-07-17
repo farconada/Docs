@@ -1,12 +1,12 @@
 resources:
   methods:
-    #F3_Docs_DocumentoEditorMethods: 'method(F3\Docs\Controller\DocumentoController->(new|create|edit|update)Action())'
-    #F3_Docs_RestrictedControllers: 'class(F3\Docs\Controller\(Comentario)Controller)'
+    Fernando_Docs_DocumentoEditorMethods: 'method(Fernando\Docs\Controller\DocumentoController->(new|create|edit|update)Action())'
+    Fernando_Docs_EditorRestrictedControllers: 'class(Fernando\Docs\Controller\(Comentario)Controller)'
 roles:
-  Editor: []
+  Reader: []
+  Editor: [Reader]
 acls:
   Editor:
     methods:
-      #F3_Docs_DocumentoEditorMethods: GRANT
-      #F3_Docs_RestrictedControllers: GRANT
-
+      Fernando_Docs_DocumentoEditorMethods: GRANT
+      Fernando_Docs_EditorRestrictedControllers: GRANT

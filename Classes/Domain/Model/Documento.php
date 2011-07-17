@@ -1,6 +1,6 @@
 <?php
 declare(ENCODING = 'utf-8');
-namespace F3\Docs\Domain\Model;
+namespace Fernando\Docs\Domain\Model;
 /**
  * Documentos
  *
@@ -31,7 +31,7 @@ class Documento {
     protected $titulo = '';
 
     /**
-     * @var \F3\FLOW3\Resource\Resource
+     * @var \TYPO3\FLOW3\Resource\Resource
      * @ManyToOne(cascade={"all"})
      * validate NotEmpty
      */
@@ -46,7 +46,7 @@ class Documento {
     protected $fecha;
 
     /**
-     * @var \Doctrine\Common\Collections\ArrayCollection<\F3\Docs\Domain\Model\Comentario>
+     * @var \Doctrine\Common\Collections\ArrayCollection<\Fernando\Docs\Domain\Model\Comentario>
      * @OneToMany(mappedBy="documento", cascade={"all"}, orphanRemoval="true")
      */
     protected $comentarios;
@@ -83,15 +83,15 @@ class Documento {
     }
 
     /**
-     * @param \F3\FLOW3\Resource\Resource $fichero
+     * @param \TYPO3\FLOW3\Resource\Resource $fichero
      */
-    public function setFichero(\F3\FLOW3\Resource\Resource $fichero)
+    public function setFichero(\TYPO3\FLOW3\Resource\Resource $fichero)
     {
         $this->fichero = $fichero;
     }
 
     /**
-     * @return \F3\FLOW3\Resource\Resource
+     * @return \TYPO3\FLOW3\Resource\Resource
      */
     public function getFichero()
     {
@@ -121,10 +121,10 @@ class Documento {
     /**
      * Adds a comment to this post
      *
-     * @param \F3\Docs\Domain\Model\comentario $comentario
+     * @param \Fernando\Docs\Domain\Model\comentario $comentario
      * @return void
      */
-    public function addComentario(\F3\Docs\Domain\Model\Comentario $comentario) {
+    public function addComentario(\Fernando\Docs\Domain\Model\Comentario $comentario) {
             $comentario->setDocumento($this);
             $this->comentarios->add($comentario);
     }
@@ -132,17 +132,17 @@ class Documento {
     /**
      * Removes a comment from this post
      *
-     * @param \F3\Docs\Domain\Model\Comentario $comentario
+     * @param \Fernando\Docs\Domain\Model\Comentario $comentario
      * @return void
      */
-    public function removeComentario(\F3\Docs\Domain\Model\Comentario $comentario) {
+    public function removeComentario(\Fernando\Docs\Domain\Model\Comentario $comentario) {
             $this->comentarios->removeElement($comentario);
     }
 
     /**
      * Returns the comments to this post
      *
-     * @return \Doctrine\Common\Collections\ArrayCollection<\F3\Docs\Domain\Model\Comentario>
+     * @return \Doctrine\Common\Collections\ArrayCollection<\Fernando\Docs\Domain\Model\Comentario>
      */
     public function getComentarios() {
             return $this->comentarios;
