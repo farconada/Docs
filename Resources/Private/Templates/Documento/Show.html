@@ -9,16 +9,16 @@
 
     <ul class="actions">
         <li><a href="{f:uri.resource(resource: doc.fichero)}"><img
-                src="{f:uri.resource(path: 'icons/disk.png', package: 'Docs')}" alt="Guardar"/></a>
+                src="{f:uri.resource(path: 'icons/disk.png', package: 'Fernando.Docs')}" alt="Guardar"/></a>
         </li>
         <li>
             <f:link.action action="edit" arguments="{doc: doc}" controller="Documento"><img
-                    src="{f:uri.resource(path: 'icons/pencil.png', package: 'Docs')}" alt="Editar"/>
+                    src="{f:uri.resource(path: 'icons/pencil.png', package: 'Fernando.Docs')}" alt="Editar"/>
             </f:link.action>
         </li>
         <li>
             <f:link.action arguments="{doc: doc}" controller="Comentario" action="new"><img
-                    src="{f:uri.resource(path: 'icons/comment.png', package: 'Docs')}" alt="Comentar"/>
+                    src="{f:uri.resource(path: 'icons/comment.png', package: 'Fernando.Docs')}" alt="Comentar"/>
             </f:link.action>
         </li>
     </ul>
