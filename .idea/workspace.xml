@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0218464b-4ab6-4699-afaf-dba000c3773c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Public/css/.sass-cache/e9e85c636945d63e9abee4d69f9b8fcd9cbccd05/docs.scssc" afterPath="$PROJECT_DIR$/Resources/Public/css/.sass-cache/e9e85c636945d63e9abee4d69f9b8fcd9cbccd05/docs.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Private/Layouts/Master.html" afterPath="$PROJECT_DIR$/Resources/Private/Layouts/Master.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Private/Templates/Documento/Index.html" afterPath="$PROJECT_DIR$/Resources/Private/Templates/Documento/Index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Public/css/sass/docs.scss" afterPath="$PROJECT_DIR$/Resources/Public/css/sass/docs.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Public/css/stylesheets/docs.css" afterPath="$PROJECT_DIR$/Resources/Public/css/stylesheets/docs.css" />
     </list>
     <ignored path="Docs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,19 +25,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="docs.scss" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="docs.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Resources/Public/css/sass/docs.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="24" selection-start="1726" selection-end="1726" vertical-scroll-proportion="0.38938054">
+            <state line="74" column="24" selection-start="1726" selection-end="1726" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Master.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Resources/Private/Layouts/Master.html">
+      <file leaf-file-name="Index.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Resources/Private/Templates/Documento/Index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="30" selection-start="1464" selection-end="1464" vertical-scroll-proportion="-18.75">
+            <state line="74" column="44" selection-start="3356" selection-end="3356" vertical-scroll-proportion="0.9109849">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="New.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Resources/Private/Templates/Documento/New.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="4" selection-start="577" selection-end="609" vertical-scroll-proportion="-11.25">
               <folding />
             </state>
           </provider>
@@ -74,9 +79,9 @@
         <option value="$PROJECT_DIR$/Resources/Public/css/stylesheets/docs.css" />
         <option value="$PROJECT_DIR$/Resources/Public/css/sass/partials/_base.scss" />
         <option value="$PROJECT_DIR$/Resources/Private/Templates/Documento/New.html" />
-        <option value="$PROJECT_DIR$/Resources/Private/Templates/Documento/Index.html" />
         <option value="$PROJECT_DIR$/Resources/Private/Layouts/Master.html" />
         <option value="$PROJECT_DIR$/Resources/Public/css/sass/docs.scss" />
+        <option value="$PROJECT_DIR$/Resources/Private/Templates/Documento/Index.html" />
       </list>
     </option>
   </component>
@@ -645,20 +650,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/Private/Templates/Documento/New.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="36" selection-start="609" selection-end="609" vertical-scroll-proportion="-11.25">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/Private/Templates/Documento/Index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="48" selection-start="1817" selection-end="1817" vertical-scroll-proportion="0.13636364">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Resources/Private/Layouts/Master.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="36" column="30" selection-start="1464" selection-end="1464" vertical-scroll-proportion="-18.75">
@@ -668,7 +659,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Resources/Public/css/sass/docs.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="24" selection-start="1726" selection-end="1726" vertical-scroll-proportion="0.38938054">
+        <state line="74" column="24" selection-start="1726" selection-end="1726" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Private/Templates/Documento/New.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="4" selection-start="577" selection-end="609" vertical-scroll-proportion="-11.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Private/Templates/Documento/Index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="44" selection-start="3356" selection-end="3356" vertical-scroll-proportion="0.9109849">
           <folding />
         </state>
       </provider>
