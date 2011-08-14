@@ -103,12 +103,37 @@ nav li:last-child {
 nav li.last {
   padding-right: 0;
 }
-/* line 72, ../sass/docs.scss */
+/* line 73, ../sass/docs.scss */
 nav li a {
   padding: 10px;
+  padding-left: 25px;
+}
+/* line 77, ../sass/docs.scss */
+nav #logout a {
+  background-image: url("../../icons/salir.png");
+  background-position: left;
+  background-repeat: no-repeat;
+}
+/* line 82, ../sass/docs.scss */
+nav #listdocs a {
+  background-image: url("../../icons/lista.png");
+  background-position: left;
+  background-repeat: no-repeat;
+}
+/* line 87, ../sass/docs.scss */
+nav #newdoc a {
+  background-image: url("../../icons/nuevo.png");
+  background-position: left;
+  background-repeat: no-repeat;
+}
+/* line 92, ../sass/docs.scss */
+nav #login a {
+  background-image: url("../../icons/login.png");
+  background-position: left;
+  background-repeat: no-repeat;
 }
 
-/* line 78, ../sass/docs.scss */
+/* line 99, ../sass/docs.scss */
 section {
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
@@ -122,17 +147,17 @@ section {
   -o-box-shadow: 0 0 8px black;
   box-shadow: 0 0 8px black;
 }
-/* line 79, ../sass/docs.scss */
+/* line 100, ../sass/docs.scss */
 section #screen-listado {
   background-image: url("../../icons/Text-Document-icon.png");
   background-position: top right;
   background-repeat: no-repeat;
 }
-/* line 87, ../sass/docs.scss */
+/* line 108, ../sass/docs.scss */
 section #mainbox {
   padding: 10px;
 }
-/* line 88, ../sass/docs.scss */
+/* line 109, ../sass/docs.scss */
 section #mainbox h2 {
   text-shadow: 1px 1px #686B68;
   color: #c8c8c8;
@@ -140,7 +165,7 @@ section #mainbox h2 {
   font-family: Arial, Helvetica, sans-serif;
   font-style: italic;
 }
-/* line 97, ../sass/docs.scss */
+/* line 118, ../sass/docs.scss */
 section #mainbox form {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
@@ -150,7 +175,7 @@ section #mainbox form {
   padding: 10px;
   background-color: #b3bacc;
 }
-/* line 101, ../sass/docs.scss */
+/* line 122, ../sass/docs.scss */
 section #mainbox form input[type="submit"] {
   background: #8bad68 url("../images/button_submit.gif") no-repeat right 0;
   width: 150px;
@@ -163,11 +188,11 @@ section #mainbox form input[type="submit"] {
   -khtml-border-radius: 4px;
   border-radius: 4px;
 }
-/* line 111, ../sass/docs.scss */
+/* line 132, ../sass/docs.scss */
 section .marco {
   width: 80%;
 }
-/* line 114, ../sass/docs.scss */
+/* line 135, ../sass/docs.scss */
 section .marco-shadow {
   background: url("../images/post_shadow.png") left top no-repeat;
   -moz-background-size: 100%, auto;
@@ -176,13 +201,13 @@ section .marco-shadow {
   background-size: 100%, auto;
   height: 10px;
 }
-/* line 119, ../sass/docs.scss */
+/* line 140, ../sass/docs.scss */
 section .listado-documentos {
   width: 100%;
   border: solid 1px #c8c8c8;
   border-spacing: 0px;
 }
-/* line 123, ../sass/docs.scss */
+/* line 144, ../sass/docs.scss */
 section .listado-documentos thead {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
@@ -212,22 +237,26 @@ section .listado-documentos thead a:hover {
   background-image: -ms-linear-gradient(#929292, #545454);
   background-image: linear-gradient(#929292, #545454);
 }
-/* line 126, ../sass/docs.scss */
+/* line 147, ../sass/docs.scss */
 section .listado-documentos td {
   padding-left: 10px;
   padding-right: 10px;
 }
-/* line 130, ../sass/docs.scss */
+/* line 151, ../sass/docs.scss */
 section .listado-documentos tbody tr {
   border-bottom-color: #dddddd;
   border-bottom-style: solid;
   border-bottom-width: 2px;
 }
-/* line 135, ../sass/docs.scss */
+/* line 156, ../sass/docs.scss */
 section .listado-documentos .comentario {
   visibility: hidden;
 }
-/* line 139, ../sass/docs.scss */
+/* line 159, ../sass/docs.scss */
+section .listado-documentos .table-actions a {
+  text-decoration: none;
+}
+/* line 163, ../sass/docs.scss */
 section input, section textarea {
   width: 100%;
   border: solid 1px #dddddd;
@@ -236,7 +265,7 @@ section input, section textarea {
   -o-box-shadow: 0 0 5px black;
   box-shadow: 0 0 5px black;
 }
-/* line 144, ../sass/docs.scss */
+/* line 168, ../sass/docs.scss */
 section .actions {
   margin: 0;
   padding: 0;
@@ -244,7 +273,7 @@ section .actions {
   overflow: hidden;
   *zoom: 1;
 }
-/* line 146, ../sass/docs.scss */
+/* line 170, ../sass/docs.scss */
 section .actions li {
   list-style-image: none;
   list-style-type: none;

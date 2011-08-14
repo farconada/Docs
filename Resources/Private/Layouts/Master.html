@@ -23,18 +23,18 @@
         <nav>
             <ul class="menu">
                 <f:security.ifHasRole role="Editor">
-                    <li>
+                    <li id="newdoc">
                         <f:link.action action="index" controller="Documento" action="new">Nuevo</f:link.action>
                     </li>
-                    <li>
+                    <li id="listdocs">
                         <f:link.action action="index" controller="Documento">Listado</f:link.action>
                     </li>
                 </f:security.ifHasRole>
 
-                <li>
+                <li id="login">
                     <f:link.action action="index" controller="Login">Login</f:link.action>
                 </li>
-                <li>
+                <li id="logout">
                     <f:link.action action="logout" controller="Login">Logout</f:link.action>
                 </li>
             </ul>

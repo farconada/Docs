@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0218464b-4ab6-4699-afaf-dba000c3773c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Public/css/.sass-cache/e7a3251e31d96d4a21dc31b48dcc8dd54d459e7b/_base.scssc" afterPath="$PROJECT_DIR$/Resources/Public/css/.sass-cache/e7a3251e31d96d4a21dc31b48dcc8dd54d459e7b/_base.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Public/css/.sass-cache/e9e85c636945d63e9abee4d69f9b8fcd9cbccd05/docs.scssc" afterPath="$PROJECT_DIR$/Resources/Public/css/.sass-cache/e9e85c636945d63e9abee4d69f9b8fcd9cbccd05/docs.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Private/Layouts/Master.html" afterPath="$PROJECT_DIR$/Resources/Private/Layouts/Master.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Private/Templates/Documento/Index.html" afterPath="$PROJECT_DIR$/Resources/Private/Templates/Documento/Index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Private/Templates/Documento/New.html" afterPath="$PROJECT_DIR$/Resources/Private/Templates/Documento/New.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Public/css/sass/docs.scss" afterPath="$PROJECT_DIR$/Resources/Public/css/sass/docs.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Public/css/sass/partials/_base.scss" afterPath="$PROJECT_DIR$/Resources/Public/css/sass/partials/_base.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Public/css/stylesheets/docs.css" afterPath="$PROJECT_DIR$/Resources/Public/css/stylesheets/docs.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Public/css/stylesheets/screen.css" afterPath="$PROJECT_DIR$/Resources/Public/css/stylesheets/screen.css" />
     </list>
     <ignored path="Docs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,34 +32,16 @@
       <file leaf-file-name="docs.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Resources/Public/css/sass/docs.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="90" column="26" selection-start="2142" selection-end="2142" vertical-scroll-proportion="0.5833333">
+            <state line="74" column="24" selection-start="1726" selection-end="1726" vertical-scroll-proportion="0.38938054">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="New.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Resources/Private/Templates/Documento/New.html">
+      <file leaf-file-name="Master.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Resources/Private/Layouts/Master.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="36" selection-start="609" selection-end="609" vertical-scroll-proportion="-11.25">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Resources/Private/Templates/Documento/Index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="0" selection-start="3287" selection-end="3287" vertical-scroll-proportion="-16.125">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="docs.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Resources/Public/css/stylesheets/docs.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="269" column="0" selection-start="7931" selection-end="7931" vertical-scroll-proportion="-7.0">
+            <state line="36" column="30" selection-start="1464" selection-end="1464" vertical-scroll-proportion="-18.75">
               <folding />
             </state>
           </provider>
@@ -82,7 +61,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/../FLOW3/Packages/Framework/TYPO3.FLOW3/Classes/Security/Authorization/RequestFilter.php" />
         <option value="$PROJECT_DIR$/../FLOW3/Packages/Framework/TYPO3.FLOW3/Classes/Security/RequestPattern/Uri.php" />
         <option value="$PROJECT_DIR$/../FLOW3/Packages/Framework/TYPO3.FLOW3/Classes/Security/RequestPattern/ControllerObjectName.php" />
         <option value="$PROJECT_DIR$/../FLOW3/Packages/Framework/TYPO3.FLOW3/Classes/Security/RequestPattern/CsrfProtection.php" />
@@ -95,8 +73,9 @@
         <option value="$PROJECT_DIR$/Tests/features/bootstrap/FeatureContext.php" />
         <option value="$PROJECT_DIR$/Resources/Public/css/stylesheets/docs.css" />
         <option value="$PROJECT_DIR$/Resources/Public/css/sass/partials/_base.scss" />
-        <option value="$PROJECT_DIR$/Resources/Private/Templates/Documento/Index.html" />
         <option value="$PROJECT_DIR$/Resources/Private/Templates/Documento/New.html" />
+        <option value="$PROJECT_DIR$/Resources/Private/Templates/Documento/Index.html" />
+        <option value="$PROJECT_DIR$/Resources/Private/Layouts/Master.html" />
         <option value="$PROJECT_DIR$/Resources/Public/css/sass/docs.scss" />
       </list>
     </option>
@@ -408,6 +387,10 @@
               <option name="myItemId" value="Private" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -534,7 +517,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2836502" sideWeight="0.97308934" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2539924" sideWeight="0.97308934" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -590,11 +573,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Configuration/Routes.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="25" selection-start="112" selection-end="112" vertical-scroll-proportion="0.085324235" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Classes/Controller/LoginController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="52" column="39" selection-start="1211" selection-end="1211" vertical-scroll-proportion="0.887372" />
@@ -667,13 +645,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/Private/Templates/Documento/Index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="0" selection-start="3287" selection-end="3287" vertical-scroll-proportion="-16.125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Resources/Private/Templates/Documento/New.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="36" selection-start="609" selection-end="609" vertical-scroll-proportion="-11.25">
@@ -681,9 +652,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Private/Templates/Documento/Index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="48" selection-start="1817" selection-end="1817" vertical-scroll-proportion="0.13636364">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Private/Layouts/Master.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="30" selection-start="1464" selection-end="1464" vertical-scroll-proportion="-18.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Resources/Public/css/sass/docs.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="26" selection-start="2142" selection-end="2142" vertical-scroll-proportion="0.5833333">
+        <state line="74" column="24" selection-start="1726" selection-end="1726" vertical-scroll-proportion="0.38938054">
           <folding />
         </state>
       </provider>
