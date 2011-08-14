@@ -28,43 +28,52 @@
     <div id="screen-listado">
         <f:flashMessages class="flashmessages"/>
         <h2>Listado de documentos</h2>
-        <table class="listado-documentos">
-            <thead>
-            <tr>
-                <th scope="col">Documento</th>
-                <th scope="col">Fecha</th>
-                <th scope="col">Acciones</th>
-            </tr>
-            </thead>
-            <tbody>
-            <f:for each="{docs}" as="doc">
-                <tr>
-                    <td class="documento"
-                        data-comentario="<f:format.date format='Y-m-d H:i:s'>{doc.ultimoComentario.fecha}</f:format.date> {doc.ultimoComentario.texto}">
-                        {doc.titulo}
-                    </td>
-                    <td>
-                        <f:format.date format='Y-m-d H:i:s'>{doc.fecha}</f:format.date>
-                    </td>
-                    <td>
-                        <a href="{f:uri.resource(resource: doc.fichero)}"><img
-                                src="{f:uri.resource(path: 'icons/disk.png', package: 'Fernando.Docs')}" alt="Guardar"/></a>
-                        <f:security.ifHasRole role="Editor">
-                            <f:link.action action="edit" arguments="{doc: doc}" controller="Documento"><img
-                                    src="{f:uri.resource(path: 'icons/pencil.png', package: 'Fernando.Docs')}" alt="Editar"/>
-                            </f:link.action>
-                            <f:link.action action="show" arguments="{doc: doc}" controller="Documento"><img
-                                    src="{f:uri.resource(path: 'icons/zoom.png', package: 'Fernando.Docs')}" alt="Detalles"/>
-                            </f:link.action>
-                            <f:link.action arguments="{doc: doc}" controller="Comentario" action="new"><img
-                                    src="{f:uri.resource(path: 'icons/comment.png', package: 'Fernando.Docs')}" alt="Comentar"/>
-                            </f:link.action>
-                        </f:security.ifHasRole>
 
-                    </td>
+        <div class="marco">
+            <table class="listado-documentos">
+                <thead>
+                <tr>
+                    <th scope="col">Documento</th>
+                    <th scope="col">Fecha</th>
+                    <th scope="col">Acciones</th>
                 </tr>
-            </f:for>
-            </tbody>
-        </table>
+                </thead>
+                <tbody>
+                <f:for each="{docs}" as="doc">
+                    <tr>
+                        <td class="documento"
+                            data-comentario="<f:format.date format='Y-m-d H:i:s'>{doc.ultimoComentario.fecha}</f:format.date> {doc.ultimoComentario.texto}">
+                            {doc.titulo}
+                        </td>
+                        <td>
+                            <f:format.date format='Y-m-d H:i:s'>{doc.fecha}</f:format.date>
+                        </td>
+                        <td>
+                            <a href="{f:uri.resource(resource: doc.fichero)}"><img
+                                    src="{f:uri.resource(path: 'icons/disk.png', package: 'Fernando.Docs')}"
+                                    alt="Guardar"/></a>
+                            <f:security.ifHasRole role="Editor">
+                                <f:link.action action="edit" arguments="{doc: doc}" controller="Documento"><img
+                                        src="{f:uri.resource(path: 'icons/pencil.png', package: 'Fernando.Docs')}"
+                                        alt="Editar"/>
+                                </f:link.action>
+                                <f:link.action action="show" arguments="{doc: doc}" controller="Documento"><img
+                                        src="{f:uri.resource(path: 'icons/zoom.png', package: 'Fernando.Docs')}"
+                                        alt="Detalles"/>
+                                </f:link.action>
+                                <f:link.action arguments="{doc: doc}" controller="Comentario" action="new"><img
+                                        src="{f:uri.resource(path: 'icons/comment.png', package: 'Fernando.Docs')}"
+                                        alt="Comentar"/>
+                                </f:link.action>
+                            </f:security.ifHasRole>
+
+                        </td>
+                    </tr>
+                </f:for>
+                </tbody>
+            </table>
+
+        </div>
+
     </div>
 </f:section>

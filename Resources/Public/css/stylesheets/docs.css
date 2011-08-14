@@ -1,37 +1,81 @@
-/* line 6, ../sass/docs.scss */
+/* line 27, ../sass/docs.scss */
 body {
-  background-color: #e5e5e5;
-  background: url("../images/bck.jpg") repeat scroll 0 0 transparent;
+  background-color: #dddddd;
 }
 
-/* line 12, ../sass/docs.scss */
+/* line 32, ../sass/docs.scss */
+header {
+  height: 45px;
+}
+/* line 34, ../sass/docs.scss */
 header h1 {
   text-align: center;
   font-family: 'Nova Script', serif;
   text-shadow: white 2px 3px 1px;
-  padding: 5px;
   padding-right: 100px;
   float: right;
+  margin-top: 4px;
+  margin-bottom: 4px;
 }
 
-/* line 22, ../sass/docs.scss */
+/* line 46, ../sass/docs.scss */
 #container {
   padding: 5px;
 }
 
-/* line 26, ../sass/docs.scss */
+/* line 50, ../sass/docs.scss */
 nav {
-  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
-/* line 28, ../sass/docs.scss */
+/* line 55, ../sass/docs.scss */
 nav ul {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: #262626;
+  text-shadow: 0px 1px 1px #fff;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #cacaca), color-stop(100%, #848484));
+  background-image: -webkit-linear-gradient(#cacaca, #848484);
+  background-image: -moz-linear-gradient(#cacaca, #848484);
+  background-image: -o-linear-gradient(#cacaca, #848484);
+  background-image: -ms-linear-gradient(#cacaca, #848484);
+  background-image: linear-gradient(#cacaca, #848484);
+  float: left;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -o-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  border-radius: 10px;
   margin: 0;
   padding: 0;
   border: 0;
   overflow: hidden;
   *zoom: 1;
+  -moz-box-shadow: 0 1px 0 black;
+  -webkit-box-shadow: 0 1px 0 black;
+  -o-box-shadow: 0 1px 0 black;
+  box-shadow: 0 1px 0 black;
+  border-top: #f3f3f3 1px solid;
 }
-/* line 31, ../sass/docs.scss */
+/* line 17, ../sass/docs.scss */
+nav ul a {
+  text-decoration: none;
+  color: #262626;
+}
+/* line 21, ../sass/docs.scss */
+nav ul a:hover {
+  color: #fff;
+  text-shadow: none;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #929292), color-stop(100%, #545454));
+  background-image: -webkit-linear-gradient(#929292, #545454);
+  background-image: -moz-linear-gradient(#929292, #545454);
+  background-image: -o-linear-gradient(#929292, #545454);
+  background-image: -ms-linear-gradient(#929292, #545454);
+  background-image: linear-gradient(#929292, #545454);
+}
+/* line 64, ../sass/docs.scss */
 nav li {
   list-style-image: none;
   list-style-type: none;
@@ -41,49 +85,30 @@ nav li {
   float: left;
   padding-left: 4px;
   padding-right: 4px;
-  width: 100px;
-  text-align: right;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(50%, #e5e5e5), color-stop(100%, #ffffff));
-  background-image: -webkit-linear-gradient(#ffffff, #e5e5e5, #ffffff);
-  background-image: -moz-linear-gradient(#ffffff, #e5e5e5, #ffffff);
-  background-image: -o-linear-gradient(#ffffff, #e5e5e5, #ffffff);
-  background-image: -ms-linear-gradient(#ffffff, #e5e5e5, #ffffff);
-  background-image: linear-gradient(#ffffff, #e5e5e5, #ffffff);
-  -moz-transform: rotate(-45deg);
-  -webkit-transform: rotate(-45deg);
-  -o-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  transform: rotate(-45deg);
-  paddign: 5px;
-  margin-top: 40px;
+  border-right: solid 1px #dddddd;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
-/* line 48, ../../../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+/* line 48, ../../../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.11.3/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 nav li:first-child, nav li.first {
   padding-left: 0;
 }
-/* line 49, ../../../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+/* line 49, ../../../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.11.3/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 nav li:last-child {
   padding-right: 0;
 }
-/* line 50, ../../../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+/* line 50, ../../../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.11.3/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 nav li.last {
   padding-right: 0;
 }
-/* line 40, ../sass/docs.scss */
+/* line 72, ../sass/docs.scss */
 nav li a {
-  text-decoration: none;
-}
-/* line 43, ../sass/docs.scss */
-nav li a:hover {
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(50%, #d9e5f3), color-stop(100%, #ffffff));
-  background-image: -webkit-linear-gradient(#ffffff, #d9e5f3, #ffffff);
-  background-image: -moz-linear-gradient(#ffffff, #d9e5f3, #ffffff);
-  background-image: -o-linear-gradient(#ffffff, #d9e5f3, #ffffff);
-  background-image: -ms-linear-gradient(#ffffff, #d9e5f3, #ffffff);
-  background-image: linear-gradient(#ffffff, #d9e5f3, #ffffff);
+  padding: 10px;
 }
 
-/* line 48, ../sass/docs.scss */
+/* line 78, ../sass/docs.scss */
 section {
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
@@ -97,48 +122,121 @@ section {
   -o-box-shadow: 0 0 8px black;
   box-shadow: 0 0 8px black;
 }
-/* line 49, ../sass/docs.scss */
+/* line 79, ../sass/docs.scss */
 section #screen-listado {
   background-image: url("../../icons/Text-Document-icon.png");
   background-position: top right;
   background-repeat: no-repeat;
 }
-/* line 57, ../sass/docs.scss */
+/* line 87, ../sass/docs.scss */
 section #mainbox {
   padding: 10px;
 }
-/* line 61, ../sass/docs.scss */
-section .listado-documentos th {
-  border-bottom-color: red;
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  padding: 10px;
+/* line 88, ../sass/docs.scss */
+section #mainbox h2 {
+  text-shadow: 1px 1px #686B68;
+  color: #c8c8c8;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
 }
-/* line 67, ../sass/docs.scss */
+/* line 97, ../sass/docs.scss */
+section #mainbox form {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: #262626;
+  text-shadow: 0px 1px 1px #fff;
+  padding: 10px;
+  background-color: #b3bacc;
+}
+/* line 101, ../sass/docs.scss */
+section #mainbox form input[type="submit"] {
+  background: #8bad68 url("../images/button_submit.gif") no-repeat right 0;
+  width: 150px;
+  height: 30px;
+  margin-top: 5px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -o-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -khtml-border-radius: 4px;
+  border-radius: 4px;
+}
+/* line 111, ../sass/docs.scss */
+section .marco {
+  width: 80%;
+}
+/* line 114, ../sass/docs.scss */
+section .marco-shadow {
+  background: url("../images/post_shadow.png") left top no-repeat;
+  -moz-background-size: 100%, auto;
+  -webkit-background-size: 100%, auto;
+  -o-background-size: 100%, auto;
+  background-size: 100%, auto;
+  height: 10px;
+}
+/* line 119, ../sass/docs.scss */
+section .listado-documentos {
+  width: 100%;
+  border: solid 1px #c8c8c8;
+  border-spacing: 0px;
+}
+/* line 123, ../sass/docs.scss */
+section .listado-documentos thead {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: #262626;
+  text-shadow: 0px 1px 1px #fff;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #cacaca), color-stop(100%, #848484));
+  background-image: -webkit-linear-gradient(#cacaca, #848484);
+  background-image: -moz-linear-gradient(#cacaca, #848484);
+  background-image: -o-linear-gradient(#cacaca, #848484);
+  background-image: -ms-linear-gradient(#cacaca, #848484);
+  background-image: linear-gradient(#cacaca, #848484);
+}
+/* line 17, ../sass/docs.scss */
+section .listado-documentos thead a {
+  text-decoration: none;
+  color: #262626;
+}
+/* line 21, ../sass/docs.scss */
+section .listado-documentos thead a:hover {
+  color: #fff;
+  text-shadow: none;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #929292), color-stop(100%, #545454));
+  background-image: -webkit-linear-gradient(#929292, #545454);
+  background-image: -moz-linear-gradient(#929292, #545454);
+  background-image: -o-linear-gradient(#929292, #545454);
+  background-image: -ms-linear-gradient(#929292, #545454);
+  background-image: linear-gradient(#929292, #545454);
+}
+/* line 126, ../sass/docs.scss */
 section .listado-documentos td {
   padding-left: 10px;
   padding-right: 10px;
 }
-/* line 71, ../sass/docs.scss */
+/* line 130, ../sass/docs.scss */
 section .listado-documentos tbody tr {
-  border-bottom-color: #e5e5e5;
+  border-bottom-color: #dddddd;
   border-bottom-style: solid;
   border-bottom-width: 2px;
 }
-/* line 76, ../sass/docs.scss */
+/* line 135, ../sass/docs.scss */
 section .listado-documentos .comentario {
   visibility: hidden;
 }
-/* line 80, ../sass/docs.scss */
+/* line 139, ../sass/docs.scss */
 section input, section textarea {
   width: 100%;
-  border: solid 1px #e5e5e5;
+  border: solid 1px #dddddd;
   -moz-box-shadow: 0 0 5px black;
   -webkit-box-shadow: 0 0 5px black;
   -o-box-shadow: 0 0 5px black;
   box-shadow: 0 0 5px black;
 }
-/* line 85, ../sass/docs.scss */
+/* line 144, ../sass/docs.scss */
 section .actions {
   margin: 0;
   padding: 0;
@@ -146,7 +244,7 @@ section .actions {
   overflow: hidden;
   *zoom: 1;
 }
-/* line 87, ../sass/docs.scss */
+/* line 146, ../sass/docs.scss */
 section .actions li {
   list-style-image: none;
   list-style-type: none;
@@ -157,15 +255,15 @@ section .actions li {
   padding-left: 4px;
   padding-right: 4px;
 }
-/* line 48, ../../../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+/* line 48, ../../../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.11.3/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 section .actions li:first-child, section .actions li.first {
   padding-left: 0;
 }
-/* line 49, ../../../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+/* line 49, ../../../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.11.3/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 section .actions li:last-child {
   padding-right: 0;
 }
-/* line 50, ../../../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+/* line 50, ../../../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.11.3/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 section .actions li.last {
   padding-right: 0;
 }

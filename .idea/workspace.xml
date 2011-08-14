@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0218464b-4ab6-4699-afaf-dba000c3773c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tests/behat.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tests/features/login.feature" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Docs.iml" afterPath="$PROJECT_DIR$/.idea/Docs.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Public/css/.sass-cache/e7a3251e31d96d4a21dc31b48dcc8dd54d459e7b/_base.scssc" afterPath="$PROJECT_DIR$/Resources/Public/css/.sass-cache/e7a3251e31d96d4a21dc31b48dcc8dd54d459e7b/_base.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Public/css/.sass-cache/e9e85c636945d63e9abee4d69f9b8fcd9cbccd05/docs.scssc" afterPath="$PROJECT_DIR$/Resources/Public/css/.sass-cache/e9e85c636945d63e9abee4d69f9b8fcd9cbccd05/docs.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Private/Templates/Documento/Index.html" afterPath="$PROJECT_DIR$/Resources/Private/Templates/Documento/Index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Private/Templates/Documento/New.html" afterPath="$PROJECT_DIR$/Resources/Private/Templates/Documento/New.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Public/css/sass/docs.scss" afterPath="$PROJECT_DIR$/Resources/Public/css/sass/docs.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Public/css/sass/partials/_base.scss" afterPath="$PROJECT_DIR$/Resources/Public/css/sass/partials/_base.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Public/css/stylesheets/docs.css" afterPath="$PROJECT_DIR$/Resources/Public/css/stylesheets/docs.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Public/css/stylesheets/screen.css" afterPath="$PROJECT_DIR$/Resources/Public/css/stylesheets/screen.css" />
     </list>
     <ignored path="Docs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,28 +32,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="FeatureContext.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tests/features/bootstrap/FeatureContext.php">
+      <file leaf-file-name="docs.scss" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Resources/Public/css/sass/docs.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="73" column="119" selection-start="2107" selection-end="2107" vertical-scroll-proportion="0.0">
+            <state line="90" column="26" selection-start="2142" selection-end="2142" vertical-scroll-proportion="0.5833333">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="behat.yml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tests/behat.yml">
+      <file leaf-file-name="New.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Resources/Private/Templates/Documento/New.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="39" selection-start="75" selection-end="75" vertical-scroll-proportion="0.0">
+            <state line="18" column="36" selection-start="609" selection-end="609" vertical-scroll-proportion="-11.25">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.feature" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Tests/features/login.feature">
+      <file leaf-file-name="Index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Resources/Private/Templates/Documento/Index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="30" selection-start="353" selection-end="353" vertical-scroll-proportion="0.2920354">
+            <state line="74" column="0" selection-start="3287" selection-end="3287" vertical-scroll-proportion="-16.125">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="docs.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Resources/Public/css/stylesheets/docs.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="269" column="0" selection-start="7931" selection-end="7931" vertical-scroll-proportion="-7.0">
               <folding />
             </state>
           </provider>
@@ -71,11 +82,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Resources/Private/Layouts/Master.html" />
-        <option value="$PROJECT_DIR$/../FLOW3/Configuration/Routes.yaml" />
-        <option value="$PROJECT_DIR$/Resources/Private/Templates/Documento/Index.html" />
-        <option value="$PROJECT_DIR$/Configuration/Settings.yaml" />
-        <option value="$PROJECT_DIR$/../FLOW3/Packages/Framework/TYPO3.FLOW3/Classes/Security/Aspect/RequestDispatchingAspect.php" />
         <option value="$PROJECT_DIR$/../FLOW3/Packages/Framework/TYPO3.FLOW3/Classes/Security/Authorization/RequestFilter.php" />
         <option value="$PROJECT_DIR$/../FLOW3/Packages/Framework/TYPO3.FLOW3/Classes/Security/RequestPattern/Uri.php" />
         <option value="$PROJECT_DIR$/../FLOW3/Packages/Framework/TYPO3.FLOW3/Classes/Security/RequestPattern/ControllerObjectName.php" />
@@ -87,6 +93,11 @@
         <option value="$PROJECT_DIR$/Tests/features/login.feature" />
         <option value="$PROJECT_DIR$/Tests/behat.yml" />
         <option value="$PROJECT_DIR$/Tests/features/bootstrap/FeatureContext.php" />
+        <option value="$PROJECT_DIR$/Resources/Public/css/stylesheets/docs.css" />
+        <option value="$PROJECT_DIR$/Resources/Public/css/sass/partials/_base.scss" />
+        <option value="$PROJECT_DIR$/Resources/Private/Templates/Documento/Index.html" />
+        <option value="$PROJECT_DIR$/Resources/Private/Templates/Documento/New.html" />
+        <option value="$PROJECT_DIR$/Resources/Public/css/sass/docs.scss" />
       </list>
     </option>
   </component>
@@ -116,7 +127,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -195,7 +205,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Tests" />
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -209,11 +223,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Tests" />
+              <option name="myItemId" value="Resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="features" />
+              <option name="myItemId" value="Public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -227,21 +245,174 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Tests" />
+              <option name="myItemId" value="Resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="features" />
+              <option name="myItemId" value="Public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="bootstrap" />
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Docs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Docs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Docs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Docs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="partials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Docs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Docs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Docs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Docs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Private" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Docs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Docs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Private" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Documento" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Docs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Docs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Private" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Favorites" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -249,8 +420,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="web-ide.project.structure" />
     <property name="DefaultHtmlFileTemplate" value="Html" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PublishConfig" serverName="flow3" serverId="7632a7c6-691f-4850-9e4f-216ebbca6f09">
     <servers>
@@ -363,7 +534,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27908745" sideWeight="0.97308934" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2836502" sideWeight="0.97308934" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -429,11 +600,6 @@
         <state line="52" column="39" selection-start="1211" selection-end="1211" vertical-scroll-proportion="0.887372" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/Private/Templates/Documento/Index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="92" selection-start="2050" selection-end="2050" vertical-scroll-proportion="0.5964912" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Configuration/Settings.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="8" selection-start="380" selection-end="380" vertical-scroll-proportion="0.25597268" />
@@ -449,21 +615,75 @@
         <state line="30" column="20" selection-start="1313" selection-end="1313" vertical-scroll-proportion="0.7227357" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/behat.yml">
+    <entry file="file://$PROJECT_DIR$/Tests/features/login.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="39" selection-start="75" selection-end="75" vertical-scroll-proportion="0.0" />
+        <state line="11" column="30" selection-start="353" selection-end="353" vertical-scroll-proportion="0.2920354" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/features/bootstrap/FeatureContext.php">
+    <entry file="file://$PROJECT_DIR$/Tests/behat.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="119" selection-start="2107" selection-end="2107" vertical-scroll-proportion="0.0">
+        <state line="3" column="39" selection-start="75" selection-end="75" vertical-scroll-proportion="0.07964602">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/features/login.feature">
+    <entry file="file://$PROJECT_DIR$/Tests/features/bootstrap/FeatureContext.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="30" selection-start="353" selection-end="353" vertical-scroll-proportion="0.2920354">
+        <state line="73" column="119" selection-start="2107" selection-end="2107" vertical-scroll-proportion="0.4159292">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Public/css/stylesheets/screen.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Public/css/sass/screen.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Public/css/sass/partials/_base.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="17" selection-start="599" selection-end="599" vertical-scroll-proportion="0.29891303">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Public/css/stylesheets/docs.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="269" column="0" selection-start="7931" selection-end="7931" vertical-scroll-proportion="-7.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Public/css/images/post_shadow.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Private/Templates/Documento/Index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="0" selection-start="3287" selection-end="3287" vertical-scroll-proportion="-16.125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Private/Templates/Documento/New.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="36" selection-start="609" selection-end="609" vertical-scroll-proportion="-11.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Public/css/sass/docs.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="90" column="26" selection-start="2142" selection-end="2142" vertical-scroll-proportion="0.5833333">
           <folding />
         </state>
       </provider>

@@ -2,20 +2,44 @@
 @import "compass";
 @import "compass/css3/text-shadow";
 @import "compass/utilities/lists/horizontal-list";
+@import "compass/css3/background-size";
 
+@mixin letras-3d {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #262626;
+    text-shadow: 0px 1px 1px #fff;
+}
+@mixin letrero-texto-apple {
+    @include letras-3d;
+    @include background-image(linear-gradient(#cacaca, #848484));
+    a {
+        text-decoration: none;
+        color: #262626;
+    }
+    a:hover {
+        color: #fff;
+        text-shadow: none;
+        @include background-image(linear-gradient(#929292, #545454));
+    }
+}
 body {
     background-color: $gris-fondo;
-    background: url("../images/bck.jpg") repeat scroll 0 0 transparent;
+    //background: url("../images/bck.jpg") repeat scroll 0 0 transparent;
 }
 
 header{
+    height: 45px;
     h1 {
         text-align: center;
         font-family: 'Nova Script', serif;
         @include single-text-shadow(white,2px,3px);
-        padding: 5px;
+        //padding: 5px;
         padding-right: 100px;
         float: right;
+        margin-top: 4px;
+        margin-bottom: 4px;
     }
 }
 
@@ -24,24 +48,30 @@ header{
 }
 
 nav {
-    width: 100%;
+    //width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    //height: 40px;
     ul {
+        @include letrero-texto-apple;
+        float: left;
+        @include border-radius(10px);
         @include horizontal-list-container;
+        @include single-box-shadow(black,0,1px,0);
+        border-top: #f3f3f3 1px solid;
     }
+
     li {
         @include horizontal-list-item;
-        width: 100px;
-        text-align: right;
-        @include background-image(linear-gradient(white, $gris-fondo, white));
-        @include rotate(-45deg);
-        paddign: 5px;
-        margin-top:40px;
+        border-right: solid 1px $gris-fondo;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 0px;
+        padding-right: 0px;
     }
     li a {
-        text-decoration: none;
-    }
-    li a:hover {
-        @include background-image(linear-gradient(white, #D9E5F3, white));
+        padding: 10px;
+
     }
 }
 
@@ -55,14 +85,43 @@ section {
     background-color: white;
     @include single-box-shadow(black,0,0,8px);
     #mainbox {
+        h2 {
+            text-shadow: 1px 1px #686B68;
+            //background-color: #B4BBB5;
+            color: #c8c8c8;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: italic;
+        }
         padding: 10px;
+        form {
+            @include letras-3d;
+            padding: 10px;
+            background-color: #b3bacc;
+            input[type="submit"] {
+                background: #8BAD68 url("../images/button_submit.gif") no-repeat right 0;
+                width: 150px;
+                height: 30px;
+                margin-top: 5px;
+                @include border-radius(4px);
+
+            }
+        }
+    }
+    .marco {
+        width: 80%;
+    }
+    .marco-shadow {
+        background: url("../images/post_shadow.png") left top no-repeat;
+        @include background-size(100%,auto);
+        height: 10px;
     }
     .listado-documentos {
-        th {
-              border-bottom-color:red;
-              border-bottom-style:solid;
-              border-bottom-width:2px;
-              padding:10px;
+        width: 100%;
+        border: solid 1px #c8c8c8;
+        border-spacing: 0px;
+        thead {
+            @include letrero-texto-apple;
         }
         td {
             padding-left: 10px;
