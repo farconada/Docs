@@ -29,7 +29,7 @@ class DocumentoController extends \TYPO3\FLOW3\MVC\Controller\ActionController
 
     public function newAction()
     {
-        $newDoc = new \Fernando\Docs\Domain\Model\Documento();
+        //$newDoc = new \Fernando\Docs\Domain\Model\Documento();
     }
 
     /**
