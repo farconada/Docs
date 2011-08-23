@@ -50,7 +50,7 @@ class Documento {
      * @OneToMany(mappedBy="documento", cascade={"all"}, orphanRemoval="true")
      */
     protected $comentarios;
-    
+
  
     /**
      * @param int $id
@@ -116,6 +116,7 @@ class Documento {
 
     public function __construct() {
         $this->fecha = new \DateTime();
+        $this->comentarios = new \Doctrine\Common\Collections\ArrayCollection();
     }
 
     /**

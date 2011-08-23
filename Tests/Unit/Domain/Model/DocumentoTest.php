@@ -23,8 +23,16 @@ class DocumentoTest extends \TYPO3\FLOW3\Tests\UnitTestCase {
      * @test
      * @return void
      */
-    public function canAttachResource() {
-
+    public function returnsOnlyTheLastComment() {
+        $comentario1 = new \Fernando\Docs\Domain\Model\Comentario();
+        $comentario1->setTexto('AAA');
+        $comentario2 = new \Fernando\Docs\Domain\Model\Comentario();
+        $comentario2->setTexto('BBB');
+        $documento = new \Fernando\Docs\Domain\Model\Documento();
+        $documento->addComentario($comentario1);
+        $documento->addComentario($comentario2);
+        $ultimoComentario = $documento->getUltimoComentario();
+        $this->assertEquals('BBB',$ultimoComentario->getTexto());
     }
 
 }
