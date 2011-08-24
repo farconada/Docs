@@ -4,16 +4,16 @@ Feature: valid xml
     I need to have always valid xml code
 
 Scenario: Anonymous users have valid xml in homepage
-    Given I am on "/index.php"
+    Given I am on "index.php"
     When I am not logged in
     Then I have valid XML
 
 Scenario: Logged users have valid xml in homepage
-    Given I am on "/index.php"
+    Given I am on "index.php"
     When I logged in
     Then I have valid XML
 
 Scenario: Logged users have valid xml in newdoc page
-    Given I am on "/docs/documento/new"
+    Given I am on "docs/documento/new"
     When I logged in
     Then I have valid XML

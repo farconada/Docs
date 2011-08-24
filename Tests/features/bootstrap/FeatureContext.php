@@ -104,12 +104,21 @@ class FeatureContext extends BehatContext
     }
 
     /**
+     * @Then /^I have valid HTML$/
+     */
+    public function iHaveValidHTML()
+    {
+        $pageContent = $this->browserSession->getPage()->getContent();
+        assertTrue($this->is_valid_html($pageContent));
+
+    }
+
+    /**
     *  Takes XML string and returns a boolean result where valid XML returns true
     */
     private function is_valid_xml ( $xml ) {
         libxml_use_internal_errors( true );
         $doc = new DOMDocument();
-        //$doc->resolveExternals = TRUE;
         $doc->loadXML( $xml);
         $errors = libxml_get_errors();
         if (!empty($errors)) {
