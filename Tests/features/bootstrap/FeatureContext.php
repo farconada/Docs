@@ -104,7 +104,9 @@ class FeatureContext extends BehatContext
         $doc = new DOMDocument('1.0', 'utf-8');
         $doc->loadXML( $xml );
         $errors = libxml_get_errors();
-        var_dump($errors);
+        if (!empty($errors)) {
+            var_dump($errors);
+        }
         return empty( $errors );
     }
 
