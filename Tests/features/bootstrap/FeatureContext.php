@@ -109,7 +109,7 @@ class FeatureContext extends BehatContext
     private function is_valid_xml ( $xml ) {
         libxml_use_internal_errors( true );
         $doc = new DOMDocument();
-        $doc->resolveExternals = TRUE;
+        //$doc->resolveExternals = TRUE;
         $doc->loadXML( $xml);
         $errors = libxml_get_errors();
         if (!empty($errors)) {

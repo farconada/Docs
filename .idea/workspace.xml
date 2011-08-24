@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0218464b-4ab6-4699-afaf-dba000c3773c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tests/features/bootstrap/FeatureContext.php" afterPath="$PROJECT_DIR$/Tests/features/bootstrap/FeatureContext.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tests/features/validxml.feature" afterPath="$PROJECT_DIR$/Tests/features/validxml.feature" />
     </list>
     <ignored path="Docs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,7 +46,7 @@
       <file leaf-file-name="FeatureContext.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Tests/features/bootstrap/FeatureContext.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="83" column="49" selection-start="2542" selection-end="2542" vertical-scroll-proportion="0.7554348">
+            <state line="111" column="10" selection-start="3281" selection-end="3281" vertical-scroll-proportion="0.70108694">
               <folding />
             </state>
           </provider>
@@ -527,7 +526,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Tests/features/bootstrap/FeatureContext.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="49" selection-start="2542" selection-end="2542" vertical-scroll-proportion="0.7554348">
+        <state line="111" column="10" selection-start="3281" selection-end="3281" vertical-scroll-proportion="0.70108694">
           <folding />
         </state>
       </provider>
