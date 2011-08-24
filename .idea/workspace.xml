@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0218464b-4ab6-4699-afaf-dba000c3773c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Private/Templates/Documento/New.html" afterPath="$PROJECT_DIR$/Resources/Private/Templates/Documento/New.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tests/features/bootstrap/FeatureContext.php" afterPath="$PROJECT_DIR$/Tests/features/bootstrap/FeatureContext.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tests/features/login.feature" afterPath="$PROJECT_DIR$/Tests/features/login.feature" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tests/features/validxml.feature" afterPath="$PROJECT_DIR$/Tests/features/validxml.feature" />
-    </list>
+    <list default="true" id="0218464b-4ab6-4699-afaf-dba000c3773c" name="Default" comment="" />
     <ignored path="Docs.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -38,19 +32,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="validxml.feature" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="validxml.feature" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Tests/features/validxml.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="19" selection-start="449" selection-end="449" vertical-scroll-proportion="0.0">
+            <state line="16" column="19" selection-start="449" selection-end="449" vertical-scroll-proportion="0.42477876">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FeatureContext.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="FeatureContext.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tests/features/bootstrap/FeatureContext.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="135" column="5" selection-start="3951" selection-end="3951" vertical-scroll-proportion="0.7282609">
+            <state line="38" column="41" selection-start="946" selection-end="958" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -552,13 +546,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/features/validxml.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="19" selection-start="449" selection-end="449" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Tests/features/login.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="19" selection-start="341" selection-end="341" vertical-scroll-proportion="0.0">
@@ -568,7 +555,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Tests/features/bootstrap/FeatureContext.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="135" column="5" selection-start="3951" selection-end="3951" vertical-scroll-proportion="0.7282609">
+        <state line="38" column="41" selection-start="946" selection-end="958" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/features/validxml.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="19" selection-start="449" selection-end="449" vertical-scroll-proportion="0.42477876">
           <folding />
         </state>
       </provider>
