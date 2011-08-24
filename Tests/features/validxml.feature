@@ -7,3 +7,8 @@ Scenario: Anonymous users have valid xml in homepage
     Given I am on "/index.php"
     When I am not logged in
     Then I have valid XML
+
+Scenario: Anonymous users have valid xml in homepage
+    Given I am on "/index.php"
+    When I logged in
+    Then I have valid XML
