@@ -85,5 +85,28 @@ class FeatureContext extends BehatContext
         $elements = $this->browserSession->getPage()->findAll('css','nav .menu a');
         assertGreaterThan(2,count($elements));
     }
+
+    /**
+     * @Then /^I have valid XML$/
+     */
+    public function iHaveValidXML()
+    {
+        $pageContent = $this->browserSession->getPage()->getContent();
+        assertTrue($this->is_valid_xml($pageContent));
+
+    }
+
+    /**
+    *  Takes XML string and returns a boolean result where valid XML returns true
+    */
+    private function is_valid_xml ( $xml ) {
+        libxml_use_internal_errors( true );
+        $doc = new DOMDocument('1.0', 'utf-8');
+        $doc->loadXML( $xml );
+        $errors = libxml_get_errors();
+        var_dump($errors);
+        return empty( $errors );
+    }
+
 //
 }
