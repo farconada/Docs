@@ -29,7 +29,7 @@
       <file leaf-file-name="login.feature" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tests/features/login.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="10" selection-start="272" selection-end="284" vertical-scroll-proportion="0.0">
+            <state line="13" column="48" selection-start="423" selection-end="423" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -38,25 +38,25 @@
       <file leaf-file-name="validxml.feature" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tests/features/validxml.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="22" selection-start="272" selection-end="272" vertical-scroll-proportion="0.0">
+            <state line="16" column="38" selection-start="470" selection-end="470" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FeatureContext.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="FeatureContext.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Tests/features/bootstrap/FeatureContext.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="113" column="13" selection-start="3382" selection-end="3382" vertical-scroll-proportion="0.0">
+            <state line="83" column="49" selection-start="2542" selection-end="2542" vertical-scroll-proportion="0.7554348">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Master.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Master.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Resources/Private/Layouts/Master.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="28" selection-start="861" selection-end="861" vertical-scroll-proportion="0.6818182">
+            <state line="24" column="28" selection-start="861" selection-end="861" vertical-scroll-proportion="-15.0">
               <folding />
             </state>
           </provider>
@@ -77,7 +77,6 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/Resources/Private/Templates/Documento/Show.html" />
-        <option value="$PROJECT_DIR$/Tests/features/login.feature" />
         <option value="$PROJECT_DIR$/Tests/behat.yml" />
         <option value="$PROJECT_DIR$/Resources/Public/css/stylesheets/docs.css" />
         <option value="$PROJECT_DIR$/Resources/Public/css/sass/partials/_base.scss" />
@@ -89,9 +88,10 @@
         <option value="$PROJECT_DIR$/Tests/Unit/Domain/Model/DocumentoTest.php" />
         <option value="$PROJECT_DIR$/Classes/Controller/DocumentoController.php" />
         <option value="$PROJECT_DIR$/Tests/features/bootstrap/LoginFeatureContext.php" />
+        <option value="$PROJECT_DIR$/Resources/Private/Layouts/Master.html" />
+        <option value="$PROJECT_DIR$/Tests/features/login.feature" />
         <option value="$PROJECT_DIR$/Tests/features/validxml.feature" />
         <option value="$PROJECT_DIR$/Tests/features/bootstrap/FeatureContext.php" />
-        <option value="$PROJECT_DIR$/Resources/Private/Layouts/Master.html" />
       </list>
     </option>
   </component>
@@ -504,30 +504,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Private/Layouts/Master.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="28" selection-start="861" selection-end="861" vertical-scroll-proportion="-15.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Tests/features/login.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="10" selection-start="272" selection-end="284" vertical-scroll-proportion="0.0">
+        <state line="13" column="48" selection-start="423" selection-end="423" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Tests/features/validxml.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="22" selection-start="272" selection-end="272" vertical-scroll-proportion="0.0">
+        <state line="16" column="38" selection-start="470" selection-end="470" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Tests/features/bootstrap/FeatureContext.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="113" column="13" selection-start="3382" selection-end="3382" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/Private/Layouts/Master.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="28" selection-start="861" selection-end="861" vertical-scroll-proportion="0.6818182">
+        <state line="83" column="49" selection-start="2542" selection-end="2542" vertical-scroll-proportion="0.7554348">
           <folding />
         </state>
       </provider>

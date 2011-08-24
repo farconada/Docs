@@ -20,7 +20,11 @@ require_once 'PHPUnit/Framework/Assert/Functions.php';
  */
 class FeatureContext extends BehatContext
 {
+    /**
+     * @var \Behat\Mink\Session
+     */
     private $browserSession;
+
     private $parameters;
     /**
      * Initializes context.
@@ -68,6 +72,8 @@ class FeatureContext extends BehatContext
      */
     public function iLoggedIn()
     {
+        $previousUrl = $this->browserSession->getCurrentUrl();
+        $this->browserSession->visit($this->parameters['base_url'].'/index.php');
         $form = $this->browserSession->getPage()->find('css', '#loginscreen form');
         $usernameField = $form->findField('TYPO3[FLOW3][Security][Authentication][Token][UsernamePassword][username]');
         $usernameField->setValue('fernando');
@@ -75,6 +81,7 @@ class FeatureContext extends BehatContext
         $passwordField->setValue('fernando');
         $submitButton =  $this->browserSession->getPage()->find('css','#loginscreen form input[type="submit"]');
         $submitButton->press();
+        $this->browserSession->visit($previousUrl);
     }
 
     /**
