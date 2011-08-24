@@ -101,11 +101,20 @@ class FeatureContext extends BehatContext
     */
     private function is_valid_xml ( $xml ) {
         libxml_use_internal_errors( true );
-        $doc = new DOMDocument('1.0', 'utf-8');
-        $doc->loadXML( $xml );
+        $doc = new DOMDocument();
+        $doc->resolveExternals = TRUE;
+        $doc->loadXML( $xml);
         $errors = libxml_get_errors();
         if (!empty($errors)) {
-            var_dump($errors);
+            //ignore "Tag XXXX invalid" error
+            foreach ($errors as $key => $errorObj) {
+                if ($errorObj->code == 801) {
+                    unset($errors[$key]);
+                }
+            }
+            if (!empty($errors)) {
+                var_dump($errors);
+            }
         }
         return empty( $errors );
     }
