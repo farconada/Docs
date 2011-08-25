@@ -14,6 +14,7 @@ Scenario: Logged users have valid xml in homepage
     Then I have valid XML
 
 Scenario: Logged users have valid xml in newdoc page
-    Given I am on "docs/documento/new"
+    Given I am on "index.php"
     When I logged in
+    And click on "newdoc" option in menu
     Then I have valid XML

@@ -72,8 +72,8 @@ class FeatureContext extends BehatContext
      */
     public function iLoggedIn()
     {
-        $previousUrl = $this->browserSession->getCurrentUrl();
-        $this->browserSession->visit($this->parameters['base_url'].'/index.php');
+        $loginPage = $this->browserSession->getPage()->find('css', '#login a');
+        $this->browserSession->visit($loginPage->getAttribute('href'));
         $form = $this->browserSession->getPage()->find('css', '#loginscreen form');
         $usernameField = $form->findField('TYPO3[FLOW3][Security][Authentication][Token][UsernamePassword][username]');
         $usernameField->setValue('fernando');
@@ -81,7 +81,15 @@ class FeatureContext extends BehatContext
         $passwordField->setValue('fernando');
         $submitButton =  $this->browserSession->getPage()->find('css','#loginscreen form input[type="submit"]');
         $submitButton->press();
-        $this->browserSession->visit($previousUrl);
+    }
+
+    /**
+     * @Given /^click on "([^"]*)" option in menu$/
+     */
+    public function clickOnOptionInMenu($menuOption)
+    {
+        $page = $this->browserSession->getPage()->find('css', '#'.$menuOption .' a');
+        $this->browserSession->visit($page->getAttribute('href'));
     }
 
     /**
@@ -104,16 +112,6 @@ class FeatureContext extends BehatContext
     }
 
     /**
-     * @Then /^I have valid HTML$/
-     */
-    public function iHaveValidHTML()
-    {
-        $pageContent = $this->browserSession->getPage()->getContent();
-        assertTrue($this->is_valid_html($pageContent));
-
-    }
-
-    /**
     *  Takes XML string and returns a boolean result where valid XML returns true
     */
     private function is_valid_xml ( $xml ) {
@@ -129,7 +127,7 @@ class FeatureContext extends BehatContext
                 }
             }
             if (!empty($errors)) {
-                var_dump($errors);
+                //var_dump($errors);
             }
         }
         return empty( $errors );
