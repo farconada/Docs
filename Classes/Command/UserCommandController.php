@@ -34,7 +34,7 @@ class UserCommandController extends \TYPO3\FLOW3\MVC\Controller\CommandControlle
     public function adduserCommand($username, $password, $role='Editor')
     {
         $account = $this->accountFactory->createAccountWithPassword($username, $password, array($role));
-        $this->accountRepository->update($account);
+        $this->accountRepository->add($account);
         return 'La cuenta ha sido creada'. PHP_EOL;
     }
 }
